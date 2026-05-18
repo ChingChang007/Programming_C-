@@ -1,0 +1,16 @@
+#include<iostream>
+using namespace std;
+
+class Product
+{
+    public:
+        int productId;
+        string productName;
+        int qty;
+        double price;
+
+        double total()
+        {
+            return qty * price;
+        }
+};
